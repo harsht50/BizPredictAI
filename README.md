@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BizPredictAI
 
-## Getting Started
+## Overview
 
-First, run the development server:
+BizPredictAI is an AI-powered business opportunity prediction platform designed to help entrepreneurs and startups make data-driven decisions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+The platform analyzes startup success probability, industry growth trends, and city-wise business opportunities using machine learning models and business intelligence techniques.
+
+---
+
+## Features
+
+- Startup Success Prediction
+- Industry Growth Analysis
+- City Opportunity Analysis
+- Business Recommendation Engine
+- Interactive Dashboard
+- Machine Learning Based Forecasting
+
+---
+
+## Tech Stack
+
+### Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Chart.js
+- Leaflet Maps
+
+### Backend
+- Python
+- SQLite
+- Machine Learning
+- Pandas
+- Scikit-learn
+
+---
+
+## Project Structure
+
+```text
+frontend/
+├── app/
+├── public/
+
+backend/
+├── dataset/
+├── model/
+├── main.py
+├── predictor.py
+├── train_model.py
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Machine Learning Components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Startup Success Prediction Model
+- Industry Opportunity Scoring
+- City Opportunity Ranking
+- Business Growth Analytics
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Future Enhancements
 
-## Learn More
+- Real-time Market Data Integration
+- Advanced AI Forecasting
+- Investor Recommendation System
+- Cloud Deployment
+- User Authentication
 
-To learn more about Next.js, take a look at the following resources:
+## Developer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Harsh Toshniwal**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Computer Science Student | Full-Stack Developer | Machine Learning Enthusiast
