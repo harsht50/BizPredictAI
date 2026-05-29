@@ -1,0 +1,16 @@
+Industry,GrowthRate,DemandScore,CompetitionLevel,StartupCount,OpportunityScore
+AI Services,0.92,Very High,Medium,0.0,46.0
+EV Charging Station,0.88,Very High,Low,0.0,44.0
+Health Diagnostics,0.86,High,Medium,0.0,43.0
+Cloud Kitchen,0.85,High,Medium,0.0,42.5
+E-commerce Logistics,0.84,High,Medium,0.0,42.0
+Food Delivery Services,0.83,High,High,0.0,41.5
+Solar Installation,0.82,High,Low,0.0,41.0
+Online Education,0.8,High,Medium,1.0,40.1
+Digital Marketing,0.78,High,High,0.0,39.0
+Pet Care Services,0.75,High,Low,0.0,37.5
+Co-working Space,0.72,Medium,Medium,0.0,36.0
+Organic Grocery,0.7,Medium,Medium,0.0,35.0
+Gaming Cafe,0.68,Medium,Medium,0.0,34.0
+Fitness Studio,0.65,Medium,Medium,0.0,32.5
+Mobile Repair Services,0.6,Medium,Low,0.0,30.0

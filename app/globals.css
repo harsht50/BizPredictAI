@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;600&family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap');
+
+/* ── LIGHT THEME (default) ── */
+:root,
+[data-theme="light"] {
+  --bg:               #f8fafc;
+  --bg-card:          #ffffff;
+  --bg-input:         #f8fafc;
+
+  --text:             #0f172a;
+  --text-muted:       #64748b;
+  --text-faint:       #94a3b8;
+  --text-placeholder: #cbd5e1;
+
+  --border:           #e2e8f0;
+
+  --accent-bg:        #eef2ff;
+  --accent-border:    #c7d2fe;
+
+  --danger-text:      #ef4444;
+
+  --shadow:           0 1px 4px rgba(0,0,0,0.06);
+  --shadow-md:        0 4px 24px rgba(0,0,0,0.08);
+}
+
+/* ── DARK THEME ── */
+[data-theme="dark"] {
+  --bg:               #0d0d1a;
+  --bg-card:          #13132b;
+  --bg-input:         #0d0d1a;
+
+  --text:             #f1f5f9;
+  --text-muted:       #94a3b8;
+  --text-faint:       #4a5568;
+  --text-placeholder: #2d3748;
+
+  --border:           rgba(255,255,255,0.08);
+
+  --accent-bg:        rgba(79,70,229,0.12);
+  --accent-border:    rgba(79,70,229,0.35);
+
+  --danger-text:      #f87171;
+
+  --shadow:           0 1px 4px rgba(0,0,0,0.3);
+  --shadow-md:        0 4px 24px rgba(0,0,0,0.4);
+}
+
+/* ── RESET ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background 0.3s, color 0.3s;
+}
